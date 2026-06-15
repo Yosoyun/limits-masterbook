@@ -4,6 +4,9 @@
 JEE Advanced and the Mathematical Olympiad shortlist. Every problem is *short to state, brutal to
 solve*, and worked **more than one way**.
 
+> **📖 Live site:** https://yosoyun.github.io/limits-masterbook/
+> **📄 PDFs:** [The Problem Set](LIMITS-Problems.pdf) · [Complete Solutions](LIMITS-Solutions.pdf)
+
 The ten chapters are organised by the instrument that powers the limit:
 
 | # | Chapter | Instrument |
