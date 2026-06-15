@@ -69,3 +69,21 @@ solutions repaired.
 To add or edit a problem, append an object to `window.PROBLEMS` in `problems.js` following the existing
 shape (`theme`, `themeLabel`, `title`, `difficulty`, `tags`, `statement`, `answer`, `trap`,
 `solutions[]`, `remark`). Statements and answers are **raw LaTeX**; solution steps use `$…$` / `$$…$$`.
+
+## Regenerating the PDFs
+
+The two PDFs are generated from `problems.js` by a small script that pre-renders all KaTeX and prints
+via headless Chrome (no LaTeX install needed):
+
+```bash
+cd tools
+npm install
+npm run build-pdf      # writes LIMITS-Problems.pdf and LIMITS-Solutions.pdf to the project root
+```
+
+Requires Node and a Chrome/Chromium install (auto-detected, or set `PUPPETEER_EXECUTABLE_PATH`).
+
+## Deploy
+
+- **GitHub Pages** (live): https://yosoyun.github.io/limits-masterbook/ — served from `main` / root.
+- **Vercel**: it's a zero-config static site — `vercel login && vercel deploy --prod --yes` from this folder.
