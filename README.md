@@ -57,6 +57,10 @@ solution method was re-checked numerically in Python (evaluating the function fr
 progressively closer points) before being allowed into the book. Wrong answers were recomputed and the
 solutions repaired.
 
+Every answer has since been **triple-verified** — by the generation verifier fleet, by a full
+hand-analysis of all 100, and by a complete independent numerical audit (evaluating each limit,
+including the one-sided / ±∞ / does-not-exist cases). **All 100 pass with zero mismatches.**
+
 ## Files
 
 | File | Role |
